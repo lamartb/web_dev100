@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+*, *:after, *:before{
+	box-sizing:border;
+}
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;	
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+
+}
+
+/* Holds all Content together */
+
+#container{
+	
+	width: 1070px;	
+	margin:0 auto;
+		
+}
+
+nav{
+	margin:0 auto;
+	text-transform: uppercase;
+	float: right;
+	height:50px;
+	font-size: 20px;
+	
+
+
+	
+}
+
+nav li{
+	width:180px;
+	background-color: ;
+	float:right;
+	text-align:center;
+	list-style: none;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding-left:15px;	
+
+
+}
+
+nav a:hover{
+	color: #bc81ff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+nav a:active{
+	color: #4c0a8a;
+}
+
+hr { 
+    display: block;
+    border-style:solid #333;
+	border-width:2px;
+}
+
+.content{
+	width: 66%;
+	float: left;
+	background-color:#ffffc8;
+	padding:10px;
+	height: 760px;
+
+}
+
+.content h1{
+
+	text-align: center;
+}
+
+.content p{
+
+	font-size: 1.05em;
+}
+
+.head1{
+	font-size: 32px;
+	color: #fff;
+}
+
+.sideevent{
+	/*text-align: center;*/
+	width: 14%;
+	float: left;
+	background-color:#4c0a8a;
+	color: white;
+	padding: 10px;
+	height: 760px;
+	
+}
+
+.sideevent h2{
+	text-align: center;
+	font-size: 19px;
+}
+
+.sideevent ul li{
+	list-style: none;
+	text-align: left;
+
+}
+
+.sideevent a{
+	color:white;
+	text-decoration: none;
+
+}
+
+.sideevent img{
+	text-align: center;
+}
+
+#gall{
+
+	height: 800px;
+	background-color: rgba(36 36 36 .5);
+	width: 1020px;
+	background-color: #053f55;
+
+}
+
+#gall h2{
+	color: white;
+	padding: 5px;
+}
+
+.classp{
+	padding: 10px;
+	width: 300px;
+	float: left;
+
+}
+
+.classp h2{
+	font-size: 19px;
+}
+
+.extrainfo{
+	width:28%;
+	float: left;
+	background-color: #053f55;
+	padding: 5px;
+	color: white;
+}
+
+/*  three colume layout for extra credit page */
+.col-left{
+	float: left;
+	width: 25%;
+}
+
+.col-mid{
+	float: left;
+	width: 50%;
+}
+
+.col-right{
+	float:left;
+	width: 25%;
+}
+
+
+
+}
+/* here starts the classes for image gallery  */
+
+.img{
+	height: auto;
+	float: left;
+	text-align: center;
+	width: 305px;
+}
+
+.img:hover{
+	border: 3px solid #4c0a8a;
+
+}
+.picinfo{
+	color: #fff;
+	text-align: center;
+}
+
+/* here ends the classes for image gallery  */
+
+/*Here starts the GRID layout*/
+
+.col-1-1{
+	width: 99%;
+	float: left;
+
+}
+
+.col-1-2{
+	width: 83%;
+	float: left;
+
+}
+
+.col-1-3{
+	width: 66%;
+	float: left;
+
+}
+
+.col-1-4{
+	width: 50;
+	float: left;
+}
+
+.col-1-5{
+	width: 33%;
+	float: left;
+}
+
+.col-1-6{
+	width: 16%;
+	float: left;
+}
