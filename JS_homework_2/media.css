@@ -1,0 +1,32 @@
+@media all and (max-width : 560px ){
+	
+	body{
+		background-color: black;
+	}
+	.fa-plus-square{
+		display:block;
+		
+	}
+	
+	nav{
+		font-size:25px;
+		
+	}
+	
+	ul{
+		display:none;
+		width:100%;
+		borader: 3px solid black;
+		
+	}
+	
+	ul li{
+		
+		width:100%;
+		boarder: 2px solid black;
+		
+	}
+	
+}
+
+

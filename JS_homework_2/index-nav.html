@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>index-nav</title>
+		<link href="media.css" rel="stylesheet" type="text/css" media="screen">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="font-awesome.min.css" type="text/css">
+        <link href="reset.css" rel="stylesheet" type="text/css">
+        
+        <style>
+
+        	.fa-plus-square{
+        		display: hidden;
+        		float:right;
+        		margin:20px;
+        		
+        	}
+			nav{
+				height:50px;
+				background-color: purple;
+				font-size: 30px;
+				color:white;
+				text-transform:capitalize;
+				width:100%;
+				cursor:pointer;
+				
+			}
+	
+			nav li{
+				float:right;
+				list-style:none;
+				padding-left: 20px;
+				padding-top:8px;
+				padding-right:10px;
+			}
+			
+			nav li a{
+				text-decoration:none;
+				color:white;
+								
+			}
+			
+			nav li a:hover{
+				text-decoration:underline;
+				
+			}
+				
+		
+		</style>
+        
+</head>
+
+	<body>
+		<nav><em class="fa-plus-square"></em>
+		  <ul>
+            	
+            	<li><a href="#" >Contact </a> </li>
+                <li><a href="#"> Donate </a> </li>
+                <li><a href="#">About </a> </li>
+                <li> <a href="#">Home </a> </li>                
+                
+            </ul>
+        
+        </nav>
+
+        <script>
+        	$(document).ready(function() {
+        		$("ul li a").mouseenter(function(){
+        			$(this).css({
+        				textDecoration: "underline"
+        			});        		
+        		});
+
+        		$("ul li a").mouseleave(function(){
+        			$(this).attr("style", "")
+        		)};
+
+        		$(".fa-diamond").click(function(){
+        			if ($("ul").hasClass("open")) {
+        				$("ul").slideUp();
+        				$("ul").removeClass("open");
+        			} else {
+        				$("ul").slideDown();
+        				$("ul").addClass("open");
+        			}
+        		})
+        	})
+
+        </script>
+
+
+
+
+
+	</body>
+</html>
